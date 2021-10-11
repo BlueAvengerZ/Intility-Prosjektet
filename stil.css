@@ -1,0 +1,191 @@
+/* Font styling Start */
+
+
+/* legger til font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* Font styling End */
+
+
+
+/* all elements styling Start */
+
+
+/* gir alle elementer posisjon og størrelse. også fjerner text stil til alle elementer  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+
+/* all elements styling End */
+
+
+
+
+/* menu-bar styling Start */
+
+
+
+/* gir posisjon for menu bar. */
+
+.max-width {
+  padding: 0 80px;
+  margin: auto;
+}
+
+
+/* gir menu bar posisjon, bredde, verdi og font.
+  også hvor mye tid skal den ta, til menu bar får bakgunnsfarge blå. */
+
+.menu-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: 0.3s;
+}
+
+
+/* gir hvit farge til kallenavn min og hvor mye tykt skal den være */
+
+.menu-bar .nickname a {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  }
+
+
+/* gir blå farge til forkortelse av kallenavn min. */
+
+.menu-bar .nickname a span{
+  color: blue;
+
+}
+
+/* menu-bar styling End */
+
+
+
+
+/* Homepage styling Start */
+
+
+/* legger til bakgrunn for homepage min. etter det gir jeg font, hvit farge, posisjon
+   og bakgrunnshøyde til homepage min. Også sier jeg at, bakgrunne skal dekke hele homepage. */
+
+.homepage {
+  display: flex;
+  background: url("background.jpg");
+  height: 100vh;
+  color: white;
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* gir posisjon til homepage min. */
+
+ .homepage .max-width {
+   margin: auto 0 auto 40px;
+ }
+
+
+ /* gir fontstørrelse  til homepage tekst nummer 1. */
+
+ .homepage .text-1 {
+   font-size: 27px;
+ }
+
+
+ /* gir fontstørrelse og posisjon til homepage tekst nummer 2. også hvor mye tykt skal den være. */
+
+ .homepage .text-2 {
+     font-size: 75px;
+     font-weight: 600;
+     margin-left: -3px;
+ }
+
+ /* gir fontstørrelse og posisjon til homepage tekst nummer 3. */
+
+ .homepage .text-3 {
+     font-size: 40px;
+     margin: 5px 0;
+ }
+
+
+ /* gir turkish farge til teksten som blir skrevet i homepage. Også hvor mye tykt skal den være */
+
+ .homepage .text-3 span {
+    color: cyan;
+    font-weight: 500;
+ }
+
+
+
+/* Homepage styling End */
+
+
+	#text{
+
+		height: 25px;
+		border-radius: 5px;
+		padding: 4px;
+    margin-top: 10px;
+    margin-left: 5px;
+		border: solid thin #aaa;
+		width: 90%;
+	}
+
+  #psd{
+
+		height: 25px;
+		border-radius: 5px;
+		padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+		border: solid thin #aaa;
+		width: 90%;
+	}
+
+	#button{
+
+		padding: 10px;
+		width: 100px;
+    margin-top: 11px;
+    margin-left: 5px;
+		color: white;
+		background-color: rgb(235, 26, 26);
+		border: none;
+	}
+
+	#box{
+
+    width: 400px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border: 2px solid grey;
+    box-shadow: 0 5px 38px red;
+    background: linear-gradient(rgba(14, 54, 214, 0.9), 100%,transparent);
+    border-radius: 20px;
+	}
+
+
+h1 {
+  color: white;
+  margin-top: 3%;
+  margin-left: 3%; 
+}
+
+#txt{
+  margin-top: 5%;
+  margin-left: 2%;
+
+}
+
